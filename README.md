@@ -27,7 +27,7 @@ microbe Gaussian kernel similarities:microbe_Gaussian_Simi_1.xlsx and microbe_Ga
 --attn_size        int     Dimension of attention.                    Default is 64.
 --attn_heads       int     Number of attention heads.                 Default is 6.
 --out_dim          int     Output dimension after feature extraction  Default is 64.
---dropout          float   Dropout rate                               Default is 0.1.
+--dropout          float   Dropout rate                               Default is 0.2.
 --slope            float   Slope                                      Default is 0.2.
 --lr               float   Learning rate                              Default is 0.001.
 --wd               float   weight decay                               Default is 5e-3.
