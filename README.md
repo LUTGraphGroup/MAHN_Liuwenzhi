@@ -6,7 +6,7 @@ Predicting disease-metabolite associations based on the metapath aggregation of 
 - Python 3.9
 - pytorch 1.12.1
 - dgl 1.1.1
-- numpy 1.22.4
+- numpy 1.22.4+mkl
 - pandas 1.4.4
 
 ## Dataset
@@ -27,6 +27,7 @@ microbe Gaussian kernel similarities:microbe_Gaussian_Simi_1.xlsx and microbe_Ga
 --attn_size        int     Dimension of attention.                    Default is 64.
 --attn_heads       int     Number of attention heads.                 Default is 6.
 --out_dim          int     Output dimension after feature extraction  Default is 64.
+--sampling number  int     enhanced GraphSAGE sampling number         Default is 50.
 --dropout          float   Dropout rate                               Default is 0.2.
 --slope            float   Slope                                      Default is 0.2.
 --lr               float   Learning rate                              Default is 0.001.
