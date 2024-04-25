@@ -44,7 +44,11 @@ Predicting disease-metabolite associations based on the metapath aggregation of 
 
 ## 🎯 How to run?
 ```
-1、Loading various associations and similarities in the data folder
-2、Running main.py in the my_code folder calls train.py, model.py, layers.py and utils.py to get the experimental results
-
+1. The data folder stores various associations and similarities. 
+2. The My_code folder for implementing the MAHN model, which specifically includes:
+  (1) main.py is used to start the MAHN model and set up parameters.
+  (2) train.py is used to implement training and validation, loss function definition, optimizer selection and parameter update.
+  (3) model.py is used to build the overall structure of the MAHN model, including different meta-path encoding and bilinear decoder.
+  (4) layers.py mainly stores some customized network layers, including multi-head attention layer, semantic level and node level attention layer, etc.
+  (5) utils.py mainly realizes data loading, semantic network construction, node sampling and evaluation index calculation, etc.
 ```
